@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Background color -->
+            <solid android:color="@color/eggShell"/>
+        </shape>
+    </item>
+    <item
+        android:top="20dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:bottom="20dp">
+        <shape android:shape="oval">
+            <!-- The gradient simulates an egg-like appearance -->
+            <gradient
+                android:startColor="#FDE9DA"
+                android:endColor="#FFF6EB"
+                android:angle="90" />
+            <!-- The stroke simulates the crack -->
+            <stroke
+                android:width="2dp"
+                android:color="#3E2723" />
+        </shape>
+    </item>
+</layer-list>
